@@ -55,3 +55,10 @@ n8n_data/
 /transformers_cache/
 /datasets/
 /tokenizers/
+
+
+# --- Otros ---
+*.zip
+*.tar.gz
+node_modules/
+.bat

@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+services/cache/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+__init__.py
+
+
+# --- Virtual environments ---
+venv/
+.env/
+.env
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Configuración ---
+*.log
+*.sqlite3
+*.db
+*.DS_Store
+.idea/
+.vscode/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+
+# --- Modelos y datos pesados ---
+*.ckpt
+*.safetensors
+*.pt
+*.bin
+*.h5
+*.onnx
+
+# --- N8N ---
+n8n_data/
+
+# --- Archivos temporales ---
+*.tmp
+*.bak
+*.swp
+
+# --- Hugging Face cache ---
+/huggingface/
+/transformers_cache/
+/datasets/
+/tokenizers/
